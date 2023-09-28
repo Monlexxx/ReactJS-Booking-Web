@@ -1,0 +1,25 @@
+.city {
+  margin-top: 35px;
+  position: relative;
+}
+
+.city-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: wheat;
+}
+
+.name {
+  font-size: 50px;
+}
+
+.subText {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.img {
+  max-width: 100%;
+  border-radius: 10px;
+}

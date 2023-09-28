@@ -1,0 +1,15 @@
+.container {
+  background-color: white;
+}
+
+.containerchild {
+  color: #454748;
+  margin: 20px auto;
+  width: 1200px;
+}
+
+.footer {
+  display: flex;
+  text-decoration: none;
+  font-size: 14px;
+}

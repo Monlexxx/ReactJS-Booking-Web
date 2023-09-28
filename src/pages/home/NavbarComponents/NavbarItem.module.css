@@ -1,0 +1,17 @@
+.navbarItem {
+  margin-right: 50px;
+}
+.navbarItem a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}
+.active {
+  padding: 10px 5px;
+  border: 1px solid rgb(231, 221, 221);
+  border-radius: 20px;
+}
+.navbarItem i {
+  padding-right: 15px;
+}

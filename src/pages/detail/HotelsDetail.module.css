@@ -1,0 +1,96 @@
+.container {
+  background-color: white;
+}
+
+.containerchild {
+  color: #454748;
+  margin: 0 auto;
+  width: 1200px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 30px 0;
+}
+.title {
+  grid-column: 1 / span 4;
+}
+
+.description {
+  grid-column: 1 / span 4;
+}
+
+.name {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 15px 0;
+}
+.address {
+  margin: 10px;
+}
+.address icon {
+  margin-right: 5px;
+}
+.cancel_quote {
+  color: #008009;
+  margin: 10px 0 20px 0;
+}
+
+.button-primary {
+  margin: 15px 0;
+  background-color: rgba(0, 113, 194, 255);
+  border: transparent;
+  padding: 8px 16px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.button-primary:hover {
+  background-color: white;
+  border: 1px solid rgba(0, 113, 194, 255);
+  padding: 8px 16px;
+  color: rgba(0, 113, 194, 255);
+  cursor: pointer;
+}
+.image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  grid-column: 1/-1;
+  margin-bottom: 20px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.description_text {
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.description_register {
+  grid-column: 5/-1;
+  background-color: #ebf3ff;
+  padding: 20px;
+}
+.description_register_text {
+  font-weight: bold;
+  margin: 15px 0;
+}
+.price {
+  font-weight: bold;
+}
+.flex {
+  display: flex;
+  gap: 3px;
+  margin: 15px 0;
+}
+.flex p {
+  font-size: 20px;
+}

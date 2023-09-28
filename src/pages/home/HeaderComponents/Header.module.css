@@ -1,0 +1,28 @@
+.container {
+  background-color: rgba(0, 53, 128, 255);
+  margin-bottom: 40px;
+}
+
+.containerchild {
+  color: white;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.headerTitle {
+  font-size: 40px;
+  padding: 90px 0 30px 0;
+}
+
+.quote {
+  font-weight: lighter;
+}
+
+.button-primary {
+  background-color: rgba(0, 113, 194, 255);
+  border: transparent;
+  padding: 8px 16px;
+  color: white;
+  margin: 0 0 100px 0;
+  margin-top: 25px;
+}

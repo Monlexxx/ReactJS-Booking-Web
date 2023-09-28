@@ -1,0 +1,19 @@
+.container {
+  background-color: white;
+}
+
+.containerchild {
+  color: #454748;
+  margin: 0 auto;
+  width: 1200px;
+}
+/* .title {
+  font-size: 25px;
+} */
+
+.hotels {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 15px;
+  margin-bottom: 40px;
+}

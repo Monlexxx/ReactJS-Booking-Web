@@ -1,0 +1,36 @@
+.container {
+  background-color: rgba(0, 53, 128, 255);
+}
+
+.containerchild {
+  color: white;
+  margin: 0 auto;
+  width: 1200px;
+  height: 200px;
+}
+
+.navbarContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0 3rem 0;
+  align-items: center;
+}
+
+.title {
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.button-secondary {
+  padding: 8px 16px;
+  margin: 15px;
+  border-radius: 2px;
+  border: transparent;
+  color: rgba(0, 53, 128, 255);
+  background-color: white;
+}
+
+.navbarLink {
+  display: flex;
+  align-items: center;
+}

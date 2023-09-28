@@ -1,0 +1,41 @@
+.container {
+  background-color: rgba(0, 53, 128, 255);
+}
+
+.containerchild {
+  color: white;
+  margin: 0 auto;
+  /* width: 80%; */
+}
+
+.form {
+  border-radius: 8px;
+  align-items: center;
+  /* margin: 15px 0 40px; */
+}
+
+.form input {
+  /* margin: 10px 0; */
+  border: transparent;
+  color: #f3ecec;
+  padding: 16px 150px 16px 20px;
+  border-radius: 5px;
+}
+
+.button-primary {
+  background-color: rgba(0, 113, 194, 255);
+  border: transparent;
+  padding: 16px;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.button-primary:hover {
+  background-color: white;
+  border: 1px solid rgba(0, 113, 194, 255);
+  padding: 8px 16px;
+  color: rgba(0, 113, 194, 255);
+  cursor: pointer;
+}

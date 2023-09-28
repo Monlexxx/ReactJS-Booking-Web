@@ -1,0 +1,47 @@
+.options {
+  display: flex;
+  justify-content: space-between;
+}
+.options input {
+  width: 30%;
+  margin: 5px 0;
+}
+.options input:active,
+.options input:visited {
+  border: none;
+}
+.options label {
+  margin-left: 20px;
+  border: transparent;
+}
+.title {
+  color: black;
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+.destination_input,
+.checkinDate_input {
+  padding: 10px 0;
+  width: 100%;
+  margin: 5px 0;
+  color: rgb(61, 60, 60);
+}
+
+.button-primary {
+  background-color: rgba(0, 113, 194, 255);
+  border: transparent;
+  padding: 8px 16px;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.button-primary:hover {
+  background-color: white;
+  border: 1px solid rgba(0, 113, 194, 255);
+  padding: 8px 16px;
+  color: rgba(0, 113, 194, 255);
+  cursor: pointer;
+}
